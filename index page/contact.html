@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Crystal Harker">
+    <meta name="description" content="Contact Eterna Alpine Retreat - Plan your dream vacation in the Swiss Alps.">
+    <title>Eterna Alpine Retreat | Contact</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Eterna Alpine Retreat</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="header">
+            <h2>Header Image</h2>
+            <img src="images/swiss-valley.jpg" alt="Majestic Swiss peak with clear blue skies" width="1200" height="600">
+        </section>
+        
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *.</p>
+            
+        </section> <!-- Closed the contact-info section here -->
+        
+        <section class="contact-section">
+            <h3>Get in Touch</h3>
+            <img src="images/swiss-sunset.jpg" alt="Stunning Swiss sunset over the mountains">
+            <div class="contact-form">
+                <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <div class="radio-group">
+                        <input type="radio" id="contact-email" name="contact-method" value="email" required>
+                        <label for="contact-email">Email</label>
+                        <input type="radio" id="contact-phone" name="contact-method" value="phone" required>
+                        <label for="contact-phone">Phone</label>
+                    </div>
+                    <label for="comments">Comments *</label>
+                    <textarea id="comments" name="comments" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <p>Copyright &copy; 2023 - Eterna Alpine Retreat</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+</html>
+
